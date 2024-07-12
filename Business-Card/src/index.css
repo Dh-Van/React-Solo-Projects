@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Inter;
+    height: 100vh;
+    background-color: #23252C;
+}
+
+#root{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app{
+    background-color: #1A1B21;
+    color: #FFFFFF;
+    padding: 0;
+}
+
+.info{
+    text-align: center;
+}
+
+.info > h1{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.info > h2 {
+    padding: 0;
+    color: #F3BF99;
+    font-size: 13px;
+    font-weight: 400;
+    margin-block: 7px 0;
+}
+
+.info > h3 {
+    font-size: 11px;
+    font-weight: 400;
+    margin-block: 9px 0;
+
+}
+
+.info--profile-picture{
+    height: 317px;
+    width: 317px;
+}
+
+.info--buttons{
+    margin-top: 15px;
+    padding: 0px 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info--buttons button {
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 115px;
+    padding-block: 9px;
+    gap: 8px;
+    border: 1px black solid;
+    border-radius: 6px;
+
+
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;
+}
+
+#email {
+    background-color: white;
+}
+
+#linkedin{
+    background-color: #5093E2;
+    color: white;
+}
