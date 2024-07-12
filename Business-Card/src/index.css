@@ -20,6 +20,7 @@ body {
     background-color: #1A1B21;
     color: #FFFFFF;
     padding: 0;
+    width: 317px;
 }
 
 .info{
@@ -28,28 +29,30 @@ body {
 
 .info > h1{
     font-size: 25px;
-    font-weight: 700;
-    margin-bottom: 0;
+    font-weight: 600;
+    margin-block: 21px 0;
+    line-height: 30.26px;
 }
 
 .info > h2 {
-    padding: 0;
     color: #F3BF99;
+    font-family: Inter;
     font-size: 13px;
-    font-weight: 400;
-    margin-block: 7px 0;
+    font-weight: 200;
+    line-height: 15.49px;
+    margin: 0;
 }
 
 .info > h3 {
-    font-size: 11px;
-    font-weight: 400;
+    font-size: 10px;
+    font-weight: 200;
     margin-block: 9px 0;
-
+    line-height: 15.36px
 }
 
 .info--profile-picture{
     height: 317px;
-    width: 317px;
+    width: 100%;
 }
 
 .info--buttons{
@@ -57,6 +60,7 @@ body {
     padding: 0px 35px;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 0px;
 }
 
 .info--buttons button {
@@ -85,4 +89,45 @@ body {
 #linkedin{
     background-color: #5093E2;
     color: white;
+}
+
+.about{
+    padding: 0px 36px;
+    margin-block: 33px 0px;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.about > h1 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-bottom: 0;
+}
+
+.about > p {
+    font-size: 10.24px;
+    font-weight: 150;
+    line-height: 15.36px;
+    margin-top: 5px;
+}
+
+.interests{
+    padding: 0px 36px;
+    margin-block: 27px 0px;
+    text-align: left;
+}
+
+.interests > h1 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-bottom: 0;
+}
+
+.interests > p {
+    font-size: 10.24px;
+    font-weight: 150;
+    line-height: 15.36px;
+    margin-top: 5px;
 }
