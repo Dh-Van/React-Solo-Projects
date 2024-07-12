@@ -21,6 +21,7 @@ body {
     color: #FFFFFF;
     padding: 0;
     width: 317px;
+    border-radius: 10px;
 }
 
 .info{
@@ -53,6 +54,7 @@ body {
 .info--profile-picture{
     height: 317px;
     width: 100%;
+    border-radius: 10px 10px 0px 0px;
 }
 
 .info--buttons{
@@ -114,7 +116,7 @@ body {
 
 .interests{
     padding: 0px 36px;
-    margin-block: 27px 0px;
+    margin-block: 20px 30px;
     text-align: left;
 }
 
@@ -130,4 +132,14 @@ body {
     font-weight: 150;
     line-height: 15.36px;
     margin-top: 5px;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 72px;
+    background-color: #161619;
+    border-radius: 0px 0px 10px 10px;
+
 }
