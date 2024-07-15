@@ -1,0 +1,33 @@
+#root {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app {
+    background-color: lightgray;
+    width: 550px;
+    font-family: Inter;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F55A5A;
+}
+
+.nav--title{
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: -0.075em;
+    margin-block: 20px;
+}
+
+.nav--logo {
+    width: 24px;
+    height: 24px;
+    padding: 7px;
+}
