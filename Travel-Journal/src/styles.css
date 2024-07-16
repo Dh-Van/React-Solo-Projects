@@ -31,3 +31,57 @@ nav {
     height: 24px;
     padding: 7px;
 }
+
+.card {
+    display: flex;
+    padding: 40px;
+    color: #2B283A;
+}
+
+.card--image{
+    border-radius: 5px;
+    width: 125px;
+    height: 168px;
+    padding: 19px;
+    padding-left: 0px;
+    object-fit: cover;
+}
+
+.card--location{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-size: 10.24px;
+    font-weight: 400;
+    letter-spacing: 0.17em;
+    margin-bottom: 0px;
+}
+
+.card--map-icon{
+    padding-right: 4px;
+    padding-top: 2px;
+}
+
+.card--link{
+    color: #918E9B;
+    padding-left: 12px
+}
+
+.card--title{
+    font-size: 25px;
+    font-weight: 700;
+    margin-block: 4px 22px;
+}
+
+.card--date-range{
+    font-size: 10.24px;
+    font-weight: 700;
+    margin-block: 0px 9px;
+}
+
+.card--description{
+    font-size: 10.24px;
+    font-weight: 400;
+    line-height: 15.36px;
+    max-width: 330px;
+}
